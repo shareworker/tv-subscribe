@@ -1,0 +1,173 @@
+{
+    "spider": "./box/spider/custom_spider.jar;md5;01cb1ec0f32bbab1e4b5dc32a8e34a14",
+    "wallpaper":"./box/wallpaper/8K01.jpg",
+    "sites": [
+        {
+            "key": "Ddrk",
+            "name": "低端影视",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "DianYingYunJi",
+            "name": "电影云集",
+            "type": 3,
+            "api": "csp_DianYingYunJi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "Dm84",
+            "name": "动漫巴士",
+            "type": 3,
+            "api": "csp_Dm84",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "Doll",
+            "name": "Doll",
+            "type": 3,
+            "api": "csp_Doll",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "Douban",
+            "name": "豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "Ikanbot",
+            "name": "爱看机器人",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "KuaKeS",
+            "name": "夸克社",
+            "type": 3,
+            "api": "csp_KuaKeS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "Libvio",
+            "name": "Libvio",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "PanSou",
+            "name": "猫狸盘搜",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "QiLeSo",
+            "name": "奇乐搜",
+            "type": 3,
+            "api": "csp_QiLeSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "TvDy",
+            "name": "电影天堂",
+            "type": 3,
+            "api": "csp_TvDy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "W55Movie",
+            "name": "555电影",
+            "type": 3,
+            "api": "csp_W55Movie",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "WebDAV",
+            "name": "WebDAV",
+            "type": 3,
+            "api": "csp_WebDAV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        },
+        {
+            "key": "Xb6v",
+            "name": "6v电影",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./box/spider/custom_spider.jar"
+        }
+    ],
+    "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
+    "lives": [
+        {
+            "name": "iptv",
+            "type": 0,
+            "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+          "name": "zbds-ipv6",
+          "type": 0,
+          "url": "https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt",
+          "playerType": 1,
+          "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+          "name": "zbds-ipv4",
+          "type": 0,
+          "url": "https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
+          "playerType": 1,
+          "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ]
+}
