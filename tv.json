@@ -1,5 +1,5 @@
 {
-    "spider": "./box/spider/custom_spider.jar;md5;ed5192106485178fa7beb702fb0a668b",
+    "spider": "./box/spider/custom_spider.jar;md5;8536a6167e8735e7e387b1e8a4f5fd2e",
     "wallpaper":"./box/wallpaper/8K01.jpg",
     "sites": [
         {
@@ -13,40 +13,10 @@
             "jar": "./box/spider/custom_spider.jar"
         },
         {
-            "key": "DianYingYunJi",
-            "name": "电影云集",
-            "type": 3,
-            "api": "csp_DianYingYunJi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
             "key": "Dm84",
             "name": "动漫巴士",
             "type": 3,
             "api": "csp_Dm84",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "Doll",
-            "name": "Doll",
-            "type": 3,
-            "api": "csp_Doll",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "Douban",
-            "name": "豆瓣",
-            "type": 3,
-            "api": "csp_Douban",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -87,56 +57,6 @@
             "name": "猫狸盘搜",
             "type": 3,
             "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "QiLeSo",
-            "name": "奇乐搜",
-            "type": 3,
-            "api": "csp_QiLeSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "TvDy",
-            "name": "电影天堂",
-            "type": 3,
-            "api": "csp_TvDy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "W55Movie",
-            "name": "555电影",
-            "type": 3,
-            "api": "csp_W55Movie",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "WebDAV",
-            "name": "WebDAV",
-            "type": 3,
-            "api": "csp_WebDAV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
-            "key": "Xb6v",
-            "name": "6v电影",
-            "type": 3,
-            "api": "csp_Xb6v",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
