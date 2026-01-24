@@ -13,16 +13,6 @@
             "jar": "./box/spider/custom_spider.jar"
         },
         {
-            "key": "Dm84",
-            "name": "动漫巴士",
-            "type": 3,
-            "api": "csp_Dm84",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
-        },
-        {
             "key": "Ikanbot",
             "name": "爱看机器人",
             "type": 3,
@@ -53,18 +43,357 @@
             "jar": "./box/spider/custom_spider.jar"
         },
         {
-            "key": "PanSou",
-            "name": "猫狸盘搜",
+            "key": "二小",
+            "name": "💓‍二小┃4K💓‍",
             "type": 3,
-            "api": "csp_PanSou",
+            "api": "csp_NewErXiaoGuard",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./box/spider/custom_spider.jar"
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "玩偶",
+            "name": "💓‍玩偶┃4K💓‍",
+            "type": 3,
+            "api": "csp_NewWoggGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "NewZhiZhen",
+            "name": "💓至臻┃4K💓",
+            "type": 3,
+            "api": "csp_NewZhiZhenGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "NewGuanYing",
+            "name": "💓观影┃4K💓",
+            "type": 3,
+            "api": "csp_NewGuanYingGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar",
+            "timeout": 120
+        },
+        {
+            "key": "NewJuTou",
+            "name": "💓剧透┃4K💓",
+            "type": 3,
+            "api": "csp_NewJuTouGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "NewHuBan",
+            "name": "💓虎斑┃4K💓",
+            "type": 3,
+            "api": "csp_NewHuBanGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "NewShaYang",
+            "name": "💓傻样┃4K💓",
+            "type": 3,
+            "api": "csp_NewShaYangGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "NewMuOu",
+            "name": "💓木偶┃4K💓",
+            "type": 3,
+            "api": "csp_NewMuOuGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "NewDuoDuo",
+            "name": "💓多多┃4K💓",
+            "type": 3,
+            "api": "csp_NewDuoDuoGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar",
+            "timeout": 120
+        },
+        {
+            "key": "雷鲸",
+            "name": "💓‍雷鲸┃4K💓‍",
+            "type": 3,
+            "api": "csp_NewLeiJingGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "NewPanMe123",
+            "name": "💓123┃4K💓",
+            "type": 3,
+            "api": "csp_NewPanMe123Guard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "盘他",
+            "name": "💓‍盘他┃4K💓‍",
+            "type": 3,
+            "api": "csp_NewPanTaGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexHanXiaoQuan",
+            "name": "💥韩剧┃秒播💥",
+            "type": 3,
+            "api": "csp_WexHanXiaoQuanGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexGuaZi",
+            "name": "💥瓜子┃秒播💥",
+            "type": 3,
+            "api": "csp_WexGuaZiGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "賤賤",
+            "name": "💥贱片┃秒播💥",
+            "type": 3,
+            "api": "csp_WexJianPianGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexWenCai",
+            "name": "💥文才┃秒播💥",
+            "type": 3,
+            "api": "csp_WexWenCaiGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexXiaoPingGuo",
+            "name": "💥苹果┃秒播💥",
+            "type": 3,
+            "api": "csp_WexXiaoPingGuoGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexDuBoKu",
+            "name": "💥独播┃秒播💥",
+            "type": 3,
+            "api": "csp_WexDuBoKuGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexYueYue",
+            "name": "💥闪电┃秒播💥",
+            "type": 3,
+            "api": "csp_WexYueYueGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexYiYs",
+            "name": "💥伊影┃秒播💥",
+            "type": 3,
+            "api": "csp_WexYiYsGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexKaFei",
+            "name": "💥咖啡┃秒播💥",
+            "type": 3,
+            "api": "csp_WexKaFeiGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexReBo",
+            "name": "💥热播┃秒播💥",
+            "type": 3,
+            "api": "csp_WexReBoGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexYunYun",
+            "name": "💥云云┃秒播💥",
+            "type": 3,
+            "api": "csp_WexYunYunGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexXiongYing",
+            "name": "💥雄鹰┃秒播💥",
+            "type": 3,
+            "api": "csp_WexXiongYingGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexBoBo",
+            "name": "🎇伯伯┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexBoBoGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexBtTwo",
+            "name": "🎇鼻涕┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexBtTwoGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "新6V",
+            "name": "🎇新6V┃磁力🎇",
+            "type": 3,
+            "api": "csp_WexXb6vGuard",
+            "searchable": 1,
+            "changeable": 0,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "WexIkanBot",
+            "name": "🎇爱看┃采集🎇",
+            "type": 3,
+            "api": "csp_WexIkanBotGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "LiveHuYa",
+            "name": "🐯‍虎牙┃直播🐯‍",
+            "type": 3,
+            "api": "csp_LiveHuYaGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "LiveDouYu",
+            "name": "🐳斗鱼┃直播🐳",
+            "type": 3,
+            "api": "csp_LiveDouYuGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "LiveBiLi",
+            "name": "🅱️哔哩┃直播🅱️",
+            "type": 3,
+            "api": "csp_LiveBiLiGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "DuanJuHaoKan",
+            "name": "🍉短剧┃好看🍉",
+            "type": 3,
+            "api": "csp_DuanJuHaoKanGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "DuanJuQiMiao",
+            "name": "🍉短剧┃小猫🍉",
+            "type": 3,
+            "api": "csp_DuanJuQiMiaoGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "DuanJuHeMa",
+            "name": "🍉短剧┃小马🍉",
+            "type": 3,
+            "api": "csp_DuanJuHeMaGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "DuanJuXingYa",
+            "name": "🍉短剧┃星星🍉",
+            "type": 3,
+            "api": "csp_DuanJuXingYaGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "DuanJuSuiPian",
+            "name": "🍉短剧┃碎片🍉",
+            "type": 3,
+            "api": "csp_DuanJuSuiPianGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "DuanJuJinLi",
+            "name": "🍉短剧┃小丽🍉",
+            "type": 3,
+            "api": "csp_DuanJuJinLiGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "AnimeGiriGiri",
+            "name": "🤡小爱┃动漫🤡",
+            "type": 3,
+            "api": "csp_AnimeGiriGiriGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
+        },
+        {
+            "key": "AnimeXiFan",
+            "name": "🤡稀饭┃动漫🤡",
+            "type": 3,
+            "api": "csp_AnimeXiFanGuard",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./box/spider/wex.jar"
         }
     ],
     "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
     "lives": [
+        {
+            "name": "冰茶",
+            "type": 0,
+            "playerType": 2,
+            "url": "https://bc.188766.xyz/?ip=&mima=bingcha1130&json=true",
+            "ua": "bingcha/1.1 (mianfeifenxiang) "
+        },
         {
             "name": "iptv",
             "type": 0,
@@ -76,7 +405,7 @@
         {
           "name": "zbds-ipv6",
           "type": 0,
-          "url": "https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt",
           "playerType": 1,
           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -84,7 +413,7 @@
         {
           "name": "zbds-ipv4",
           "type": 0,
-          "url": "https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
           "playerType": 1,
           "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
           "logo": "https://epg.112114.xyz/logo/{name}.png"
